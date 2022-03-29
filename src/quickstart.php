@@ -6,7 +6,7 @@ if (php_sapi_name() != 'cli') {
     throw new Exception('Este aplicativo deve ser executado na linha de comando');
 }
 
-$drive = new App\Services\GoogleDrive();
+$drive = new App\Services\GoogleDrive([]);
 
 //$drive->createFolder('Pasta sem compartilhamento');
 
