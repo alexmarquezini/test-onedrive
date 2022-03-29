@@ -1,0 +1,22 @@
+{
+    "name": "alex/test-onedrive",
+    "authors": [
+        {
+            "name": "Alex Marquezini",
+            "email": "git@alexmarquezini.com"
+        }
+    ],
+    "config" : {
+        "platform" : {
+            "php" : "5.5.0"
+        }
+    },
+    "require": {
+        "google/apiclient": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
